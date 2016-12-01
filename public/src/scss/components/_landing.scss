@@ -1,0 +1,19 @@
+.about {
+	padding:1em 0;
+}
+
+.how-it-works {
+	background-color:#f3f3f3;
+	padding:1em 0;
+}
+
+.testimonials {
+	padding:1em 0;
+	background-color:$primary-color;
+	
+	color:white !important;
+
+	* {
+		color:inherit;
+	}
+}
