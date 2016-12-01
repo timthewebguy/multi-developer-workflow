@@ -1,0 +1,15 @@
+.product {
+	background-color:$primary-color;
+	border:0.5em solid #{darken($primary-color, 10%)};
+	padding:2em 0;
+	cursor:pointer;
+	h1 {
+		color:white;
+		text-align:center;
+	}
+
+	&:hover {
+		background-color:$secondary-color;
+		border-color:darken($secondary-color, 10%);
+	}
+}
