@@ -1,0 +1,21 @@
+
+//Base global files
+@import 'base/variables';
+@import 'base/normalize';
+@import 'base/mixins';
+@import 'base/font';
+
+//Component-specific files
+@import 'components/header';
+@import 'components/footer';
+@import 'components/landing';
+@import 'components/about';
+@import 'components/pricing';
+
+@import 'base/utilities';
+
+@media screen and (min-width: $tablet) {
+}
+
+@media screen and (min-width: $desktop) {
+}

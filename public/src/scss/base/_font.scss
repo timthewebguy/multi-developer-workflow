@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+html {
+	font-family:'Montserrat', sans-serif;
+	font-weight:normal;
+	color:#222;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight:bold;
+	color:$primary-color;
+}
+
+p {
+	line-height:1.5em;
+	font-size:1.1em;
+}
+
+a {
+	color:darken($secondary-color, 10%);
+
+	&:hover {
+		color:darken($secondary-color, 30%);
+	}
+}
+
+
+.banner {
+	background:linear-gradient(to bottom, #{darken($secondary-color, 10%)}, #{lighten($secondary-color, 10%)});
+
+	padding:5em 0;
+}
+.banner__text {
+	color:white;
+	font-size:3em;
+}
