@@ -15,6 +15,7 @@
 @import 'base/utilities';
 
 @media screen and (min-width: $tablet) {
+	@include header-tablet;
 }
 
 @media screen and (min-width: $desktop) {

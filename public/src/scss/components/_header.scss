@@ -1,0 +1,60 @@
+
+.main-header {
+	background-color:$primary-color;
+	color:white;
+	@include clearfix;
+}
+
+.logo {
+	margin:0;
+	padding:0.5em 0;
+	text-align:center;
+	color:white;
+}
+
+.main-nav {
+	background-color:darken($primary-color, 5%);
+}
+
+.main-nav__list {
+	margin:0;
+	padding:0;
+	display:flex;
+	flex-flow:row no-wrap;
+	justify-content:space-between;
+}
+.main-nav__listItem {
+	list-style:none;
+	text-align:center;
+	width:100%;
+}
+.main-nav__link {
+	color:white;
+	display:block;
+	width:100%;
+	font-weight:bold;
+	line-height:3em;
+	text-decoration:none;
+}
+
+@mixin header-tablet {
+
+	.main-header {
+		&>.u-container {
+			display:flex;
+			flex-flow:row no-wrap;
+			align-items:center;
+			justify-content:space-between
+		}
+	}
+
+	.main-nav__list {
+		display:block;
+		width:15em;
+	}
+
+	.main-nav__listItem {
+		width:5em;
+		float:left;
+	}
+}
